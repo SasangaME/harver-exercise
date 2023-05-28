@@ -3,6 +3,9 @@ import * as imageService from './services/image-service';
 
 dotenv.config();
 
+/**
+ * main entry point of the application
+ */
 async function main(): Promise<void> {
     const text1 = process.env.TEXT_1 || 'text1';
     const text2 = process.env.TEXT_2 || 'text2';
